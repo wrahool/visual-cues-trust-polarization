@@ -20,3 +20,4 @@ The purpose for the other files in the `scripts` folder are as follows:
 - `05_main-study-preprocess-prolific.R` runs the preprocessing pipeline of the raw main study data collected on Prolific and produces the `auxiliary/preprocessed-final-prolific-for-analysis.csv` file (which is not tracked on Github).
 - The `data/visual-cues_anonymised-data.csv` is identical to the file `auxiliary/preprocessed-final-prolific-for-analysis.csv` but anonymised for public release.
 
+All scripts have been tested on R version 4.3.1.
