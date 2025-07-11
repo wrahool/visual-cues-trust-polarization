@@ -11,7 +11,7 @@ scale_variable <- function(x) {
   (x - min(x)) / (max(x) - min(x))
 }
 
-dat <- read_csv("auxiliary/preprocessed-final-prolific-for-analysis.csv")
+dat <- read_csv("data/visual-cues_anonymised-data.csv")
 
 glimpse(dat)
 
